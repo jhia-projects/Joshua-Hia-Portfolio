@@ -1,9 +1,9 @@
 # Joshua Hia's Portfolio
 
-# [Stock price prediction using LSTM] (https://github.com/jhia-projects/air_pollution_forecast)
+# [Stock price prediction using LSTM](https://github.com/jhia-projects/air_pollution_forecast)
 The Ultra low emission zone (ULEZ) is a tax on high polluting vehicles first introduced in April 2019 on inner London boroughs. If you owned a non-compliant vehicle and entered the ULEZ zone, you would have to pay a charge. In 29 August 2023, this tax zone was expanded to cover all Greater London boroughs. This forecasting project seeks to understand how well LSTM can perform against standard ARIMA models, especially when responding to sudden changes in the time series
 
-# [Bayesian forecasting] (https://github.com/jhia-projects/bayesian_forecasting)
+# [Bayesian forecasting](https://github.com/jhia-projects/bayesian_forecasting)
 This project involved using historical movie revenues in the UK and US to forecast 1st-week revenue performance in each country, using a Bayesian hierarchical model. I evaluated the forecasting performance against other vanilla ML methods (e.g. random forests, single-layer neural network). I used the JAGS implementation of MCMC and other standard R packages for the ML approaches.
 
 # [Geodemographic classification]
