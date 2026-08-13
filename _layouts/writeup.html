@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{% if page.summary %}
+<p><em>{{ page.summary }}</em></p>
+{% endif %}
+
+{% if page.tags %}
+<p>
+  {% for tag in page.tags %}<code>{{ tag }}</code>&nbsp; {% endfor %}
+</p>
+{% endif %}
+
+{% if page.image %}
+<p><img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="max-width:100%;"></p>
+{% endif %}
+
+{{ content }}
+
+{% if page.repo %}
+<p><a href="{{ page.repo }}">&rarr; Full code on GitHub</a></p>
+{% endif %}
+
+<p><a href="{{ '/' | relative_url }}">&larr; Back to all writeups</a></p>
