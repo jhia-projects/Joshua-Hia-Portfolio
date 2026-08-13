@@ -1,3 +1,26 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+
+# Collections = extra "types" of content beyond normal pages.
+# This adds a "writeups" collection: every file in the _writeups
+# folder becomes its own page, automatically, without you
+# needing to create a URL or template by hand.
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:name/
+
+# Any file inside _writeups automatically gets the "writeup"
+# layout (_layouts/writeup.html) applied, so you never have to
+# type "layout: writeup" yourself in a new writeup file.
+defaults:
+  - scope:
+      path: ""
+      type: writeups
+    values:
+      layout: writeup
+
+# Files here are ignored by Jekyll (not built into the site).
+exclude:
+  - NEW_WRITEUP_TEMPLATE.md

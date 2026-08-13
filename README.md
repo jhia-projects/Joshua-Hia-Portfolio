@@ -1,17 +1,11 @@
 # Joshua Hia's Portfolio
 
-# [Air pollution prediction using LSTM](https://github.com/jhia-projects/air_pollution_forecast)
-The Ultra low emission zone (ULEZ) is a tax on high polluting vehicles first introduced in April 2019 on inner London boroughs. If you owned a non-compliant vehicle and entered the ULEZ zone, you would have to pay a charge. In 29 August 2023, this tax zone was expanded to cover all Greater London boroughs. This forecasting project seeks to understand how well LSTM can perform against standard ARIMA models, especially when responding to sudden changes in the time series
+Source for my Jekyll portfolio site, published via GitHub Pages.
 
-![](/images/lstm_forecast.png)
+## Adding a new writeup
 
-# [Bayesian forecasting](https://github.com/jhia-projects/bayesian_forecasting)
-This project involved using historical movie revenues in the UK and US to forecast 1st-week revenue performance in each country, using a Bayesian hierarchical model. I evaluated the forecasting performance against other vanilla ML methods (e.g. random forests, single-layer neural network). I used the JAGS implementation of MCMC and other standard R packages for the ML approaches.
+1. Copy `NEW_WRITEUP_TEMPLATE.md`, rename it (e.g. `_writeups/my-new-project.md`), and move it into the `_writeups/` folder.
+2. Fill in the front matter (the `---` block at the top) and write the content below it in markdown.
+3. Commit and push — the site rebuilds automatically.
 
-# [Eat Out to Help Out restaurant finder](https://github.com/jhia-projects/EOTHO)
-Eat Out to Help Out was a scheme launched by the UK government to encourage people to support local businesses during the pandemic. F&B outlets who signed up to the scheme would give a 50% discount on their prices to customers with the support of government funding. The F&B outlets who signed up to this scheme was made publicly available.
-
-This project uses location data and creates an interactive map to enable users to search for participating restaurants in the vicinity of a postcode. It covers outlets in London only.
-
-# [Social Atlas of New York City](https://github.com/jhia-projects/NY-SocialAtlas)
-This is a compilation of 5 visuals/infographics which aims to capture the essence of New York City as a global city. The data underlying the maps/infographics are sourced publicly, before being cleaned, manipulated and transformed using a variety of software including R and QGIS.
+See `_writeups/` for existing examples.
